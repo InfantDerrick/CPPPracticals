@@ -8,7 +8,7 @@
 using namespace std;
 int main(){
     float a, b, c, d;
-    cout<<"Enter a,b,c of ax^2 + bx + c";
+    cout<<"Enter a,b,c of ax^2 + bx + c"<<endl;
     cin>>a>>b>>c;
     d = (pow(b, 2))-(4*a*c);
     if(d>=0){
